@@ -1,4 +1,5 @@
 🚀 Task Manager - ReactJS Web Geliştirme Projesi
+
 📌 Proje Amacı
 
 Bu proje, ReactJS kullanılarak geliştirilmiş bir görev yönetim (Task Manager / Todo App) uygulamasıdır.
