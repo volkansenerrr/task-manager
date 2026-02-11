@@ -35,6 +35,7 @@ Proje GitHub’a yüklendi.
 Netlify ile canlıya alındı.
 
 📁 Proje Dosya Yapısı
+
 src/
 │
 ├── components/
