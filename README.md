@@ -1,82 +1,117 @@
 🚀 Task Manager - ReactJS Web Geliştirme Projesi
-
 📌 Proje Amacı
-Bu proje, modern JavaScript kütüphanelerinden biri olan ReactJS kullanılarak geliştirilmiş bir görev yönetim (Task Manager / Todo App) uygulamasıdır.
+
+Bu proje, ReactJS kullanılarak geliştirilmiş bir görev yönetim (Task Manager / Todo App) uygulamasıdır.
 Amaç; HTML, CSS ve JavaScript temellerini React yapısı içerisinde kullanarak modern frontend geliştirme sürecini deneyimlemek ve CRUD işlemlerini uygulamaktır.
 
 🛠️ Kullanılan Teknolojiler
-⚛ ReactJS (Vite ile kurulum)
-🎨 Tailwind CSS
-💻 JavaScript (ES6+)
-💾 LocalStorage
-🌐 Netlify (Deploy)
-🐙 Git & GitHub
+
+ReactJS (Vite ile kurulum)
+
+Tailwind CSS
+
+JavaScript (ES6+)
+
+LocalStorage
+
+Git & GitHub
+
+Netlify (Deploy)
 
 📂 Proje Kurulum Süreci
-Vite kullanılarak React projesi oluşturuldu.
-Proje klasör yapısı oluşturuldu:
-components
-pages
+
+Vite ile React projesi oluşturuldu.
+
+Component tabanlı klasör yapısı oluşturuldu.
+
 Tailwind CSS projeye entegre edildi.
+
 CRUD işlemleri geliştirildi.
+
 LocalStorage ile veri kalıcılığı sağlandı.
+
 Proje GitHub’a yüklendi.
-Netlify üzerinden canlıya alındı.
+
+Netlify ile canlıya alındı.
 
 📁 Proje Dosya Yapısı
 src/
- ├── components/
- │    ├── TaskForm.jsx
- │    ├── TaskList.jsx
- │
- ├── pages/
- │    └── Home.jsx
- │
- ├── App.jsx
- ├── main.jsx
- └── index.css
+│
+├── components/
+│   ├── TaskForm.jsx
+│   └── TaskList.jsx
+│
+├── pages/
+│   └── Home.jsx
+│
+├── App.jsx
+├── main.jsx
+└── index.css
 
 ⚙️ Uygulama Özellikleri
-✔ Görev Ekleme
-✔ Görev Listeleme
-✔ Görev Güncelleme
-✔ Görev Silme
-✔ Görev Tamamlama (Checkbox sistemi)
-✔ Tamamlanan görev sayacı
-✔ LocalStorage ile veri saklama
-✔ Responsive tasarım
+
+Görev ekleme
+
+Görev listeleme
+
+Görev güncelleme
+
+Görev silme
+
+Görev tamamlama (Checkbox)
+
+Tamamlanan görev sayacı
+
+LocalStorage ile veri saklama
+
+Responsive tasarım
 
 🧠 Kullanılan React Kavramları
+
 useState
+
 useEffect
+
 Props
+
 Component yapısı
+
 Event handling
+
 Map ile liste render
+
 Conditional rendering
 
 💾 LocalStorage Kullanımı
-Görevler tarayıcı yenilendiğinde kaybolmaması için localStorage kullanılmıştır.
+
+Görevlerin sayfa yenilendiğinde kaybolmaması için LocalStorage kullanılmıştır:
+
 useEffect(() => {
   localStorage.setItem("tasks", JSON.stringify(tasks));
 }, [tasks]);
 
 🚀 Projeyi Çalıştırma
-Projeyi lokal ortamda çalıştırmak için:
 git clone https://github.com/volkansenerrr/task-manager.git
 cd task-manager
 npm install
 npm run dev
 
 🌍 Canlı Demo
+
 👉 https://my-task-manager-todo-app.netlify.app/
 
-📷 Proje Ekran Görüntüsü
-Dosyalar içinde png formatında 4 ekran görüntüsü dosyası mevcut.
+📷 Proje Ekran Görüntüleri
+
+Proje klasörü içerisinde PNG formatında ekran görüntüleri bulunmaktadır.
 
 🎯 Proje Kazanımları
+
 Modern React yapısını öğrenme
+
 Component tabanlı mimari
+
 State yönetimi
+
 Veri kalıcılığı
+
 Gerçek bir frontend uygulamasını canlıya alma deneyimi
