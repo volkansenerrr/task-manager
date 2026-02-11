@@ -8,31 +8,20 @@ Amaç; HTML, CSS ve JavaScript temellerini React yapısı içerisinde kullanarak
 🛠️ Kullanılan Teknolojiler
 
 ReactJS (Vite ile kurulum)
-
 Tailwind CSS
-
 JavaScript (ES6+)
-
 LocalStorage
-
 Git & GitHub
-
 Netlify (Deploy)
 
 📂 Proje Kurulum Süreci
 
 Vite ile React projesi oluşturuldu.
-
 Component tabanlı klasör yapısı oluşturuldu.
-
 Tailwind CSS projeye entegre edildi.
-
 CRUD işlemleri geliştirildi.
-
 LocalStorage ile veri kalıcılığı sağlandı.
-
 Proje GitHub’a yüklendi.
-
 Netlify ile canlıya alındı.
 
 📁 Proje Dosya Yapısı
@@ -52,35 +41,22 @@ src/
 ⚙️ Uygulama Özellikleri
 
 Görev ekleme
-
 Görev listeleme
-
 Görev güncelleme
-
 Görev silme
-
 Görev tamamlama (Checkbox)
-
 Tamamlanan görev sayacı
-
 LocalStorage ile veri saklama
-
 Responsive tasarım
 
 🧠 Kullanılan React Kavramları
 
 useState
-
 useEffect
-
 Props
-
 Component yapısı
-
 Event handling
-
 Map ile liste render
-
 Conditional rendering
 
 💾 LocalStorage Kullanımı
@@ -108,11 +84,8 @@ Proje klasörü içerisinde PNG formatında ekran görüntüleri bulunmaktadır.
 🎯 Proje Kazanımları
 
 Modern React yapısını öğrenme
-
 Component tabanlı mimari
-
 State yönetimi
-
 Veri kalıcılığı
-
 Gerçek bir frontend uygulamasını canlıya alma deneyimi
+Bu proje, temel React konseptlerini ve frontend geliştirme süreçlerini başarıyla uygulayan bir görev yönetim uygulamasıdır.
